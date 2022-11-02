@@ -1,20 +1,23 @@
 var topics = ['HTML', 'CSS', 'Git', 'JavaScrip'];
 
-for (var x = 0; x < topics.length; x++) {
+function listTopics() {
+  for (var x = 0; x < topics.length; x++) {
     console.log(topics[x]);
+  }
 }
 
-/*if (topic === 'HTML') {
+function selectTopic() {
+  if (topics === 'HTML') {
     console.log("Let's study HTML!");
-} else if (topic === 'CSS') {
+  } else if (topics === 'CSS') {
     console.log("Let's study CSS!");
-} else if (topic === 'Git') {
+  } else if (topics === 'Git') {
     console.log("Let's study Git!");
-} else if (topic === 'JavaScript') {
+  } else if (topics === 'JavaScript') {
     console.log("Let's study JavaScript!");
-} else {
+  } else {
     console.log("Please try again!");
+  }
 }
-*/
-console.log(topics);
+listTopics();
 
